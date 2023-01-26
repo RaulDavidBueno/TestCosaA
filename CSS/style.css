@@ -1,0 +1,355 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.videoContainer {
+    max-width: 100vw;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 0.7%;
+}
+
+
+video {
+    width: 90%;
+    box-shadow: -1px -1px 20px 10px rgb(5 13 78);
+}
+
+.logo a{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+iframe {
+    pointer-events: none;
+}
+
+.imagenZorro {
+    max-width: 135px;
+    z-index: 11;
+}
+
+nav {
+    height: 100px;
+    background-color: black;
+    position: sticky;
+    top: 0px;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+}
+
+footer {
+    height: 25vh;
+    background-color: rgb(10, 10, 15);
+    position: relative;
+    z-index: 10;
+}
+
+
+
+.centerButtons {
+    display: inline-flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+
+}
+
+.centerButtons input {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.logo {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 10;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+.logo h1 {
+    font-family: 'Zen Dots', cursive;
+    color: white;
+}
+
+.iconSearch {
+    position: absolute;
+    right: 125px;
+    top: 20px;
+    height: 60px;
+    width: 60px;
+    border-radius: 12px;
+    background-color: rgb(19, 19, 19);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 11;
+
+}
+
+.opacityIconSearch {
+    position: absolute;
+    right: 125px;
+    top: 20px;
+    height: 60px;
+    width: 60px;
+    border-radius: 12px;
+    background-color: rgba(19, 19, 19, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 12;
+    cursor: pointer;
+}
+
+.opacityIconSearch:hover {
+    background-color: rgba(19, 19, 19, 0.432);
+
+}
+
+.iconSearch img {
+    max-width: 60px;
+}
+
+.userSearch {
+
+    display: flex;
+
+}
+
+.userImage {
+    max-width: 60px;
+    position: absolute;
+    right: 36px;
+    top: 20px;
+    border-radius: 10px;
+}
+
+.middleButton {
+    height: 91px;
+    width: 115px;
+    background-color: rgb(0, 0, 0);
+    z-index: 13;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.centerButtons a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Kanit', sans-serif;
+    margin: 1px;
+}
+
+.centerButtons a:hover {
+    color: rgb(66, 66, 66);
+}
+
+.logoFooter {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: -13px;
+}
+
+.footer h1 {
+    font-family: 'Zen Dots', cursive;
+    color: white;
+    font-size: 20px;
+}
+
+.footer h2 {
+    font-family: 'Zen Dots', cursive;
+    font-size: medium;
+    color: gray;
+}
+
+.footer h3 {
+
+    font-family: 'Zen Dots', cursive;
+    font-size: small;
+    color: rgb(83, 83, 83);
+}
+
+
+.footerButtons {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    /* margin-left: 63px; */
+    margin-top: -7px;
+    z-index: 10;
+    cursor: pointer;
+}
+
+.footerButtons a {
+    text-decoration: none;
+}
+
+.footer {
+    display: flex;
+    margin-inline: 47px;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer h2,
+h3 {
+    margin-top: 22px;
+}
+
+.logoFooter img {
+    /* max-width: 100px; */
+    max-height: 75px;
+
+}
+
+.footer h2:hover {
+    color: rgb(94, 94, 94);
+}
+
+.footer h3:hover {
+    color: rgb(66, 66, 66);
+}
+
+.justifyCenter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.copyrightLogo {
+    margin-top: 50px;
+
+}
+
+.descriptionContiner {
+    height: 90%;
+    width: 90vw;
+    background-color:transparent;
+    filter: blur(3px);
+    border-radius: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.705);
+    margin-top: 1.5%;
+    
+}
+
+.descriptionContiner h1, h2 {
+    filter: blur(0px);
+    color: rgb(168, 168, 168);
+    font-family: 'Zen Dots', cursive;
+    z-index: 5;
+}
+
+.descriptionContiner h2 {
+    position: relative;
+    top: 36px;
+    margin-left: 3%;
+    margin-right: 3%;
+    text-align: center;
+}
+
+.unPutoBacground{
+    background-color: black;
+    width: 100%;
+}
+.imgBG{
+    height: 1080px;
+    width: 100%;
+    background-color: black;
+    background: url(../Assets/BGmain.webp);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.gameBoxesContainer{ 
+    background-color:	#565656;
+    height: 70vh;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.gameBox{
+    background-color: black;
+    width: 30%;
+    height: 450px;
+    border-radius: 10px;
+    margin-top: 1%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gameBox img{
+   max-width: 90%;
+   max-height: 50%;
+   margin-top: 1.5%;
+   border-radius: 10px;
+   border-style: solid;
+   box-shadow: 0px 0px 12px 3px rgb(6 13 100 / 71%);
+}
+
+.gameBox h1{
+    color: white;
+    font-family: 'Zen Dots', cursive;
+}
+
+.gameBox p{
+    color: #b6b6b6;
+    text-align: center;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 2%;
+    font-family: 'Zen Dots', cursive;
+}
+
+.buttonShowMore{
+    width: 50%;
+    height: 8%;
+    background-color: #868686;
+    border-radius: 20px;
+    margin-top: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttonShowMore:hover{
+    cursor: pointer;
+}
+
+.buttonShowMore a{
+    text-decoration: none   ;
+}
+.test {
+    font-family: 'ZenDots', sans-serif;
+}
